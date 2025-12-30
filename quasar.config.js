@@ -41,7 +41,7 @@ module.exports = configure(function (/* ctx */) {
     animations: [],
 
     pwa: {
-      workboxMode: 'GenerateSW',
+      workboxMode: 'generateSW',
       injectPwaMetaTags: true,
       swFilename: 'sw.js',
       manifestFilename: 'manifest.json',
